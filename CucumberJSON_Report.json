@@ -1,0 +1,61 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "to-check-the-navigation-and-contact-in-growthengineering;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "line": 4,
+            "name": "user Launch The Browser",
+            "match": {
+              "location": "Stepdefinition_Growth.user_Launch_The_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "line": 5,
+            "name": "user Navigate The OurProduct Menu",
+            "keyword": "When "
+          },
+          {
+            "line": 6,
+            "name": "user Navigate The OurApproach Menu",
+            "keyword": "And "
+          },
+          {
+            "line": 7,
+            "name": "user Navigate The Resources Menu",
+            "keyword": "And "
+          },
+          {
+            "line": 8,
+            "name": "user Navigate The AboutUs Menu",
+            "keyword": "And "
+          },
+          {
+            "line": 9,
+            "name": "user Click GetInTouch Button and Navigate To contactPage",
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SanityTest"
+          }
+        ]
+      }
+    ],
+    "name": "To check The Navigation and Contact in GrowthEngineering",
+    "description": "",
+    "id": "to-check-the-navigation-and-contact-in-growthengineering",
+    "keyword": "Feature",
+    "uri": "Growth.feature"
+  }
+]
